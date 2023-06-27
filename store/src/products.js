@@ -1,17 +1,17 @@
 const products = [
   {
-    id: '1',
-    title: 'Product Title 1',
+    id: 'price_1NNJuHCZMYzNjxDggAyVZ2oW',
+    title: 'Mahomes',
     price: 150.0,
   },
   {
-    id: '2',
-    title: 'Product Title 2',
+    id: 'price_1NNJulCZMYzNjxDg17OmKhme',
+    title: 'Sunrise',
     price: 150.0,
   },
   {
-    id: '3',
-    title: 'Product Title 3',
+    id: 'price_1NNJv9CZMYzNjxDgQGV0hWXo',
+    title: 'Sunset',
     price: 150.0,
   },
 ]

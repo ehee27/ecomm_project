@@ -8,11 +8,9 @@ const Store = () => {
     <>
       <h1>Welcome to the store</h1>
       <Row xs={1} md={3} className="g-4">
-        {products.map(item => (
-          <Col align="center" key={item.id}>
-            <ProductCard productData={item} />
-            {/* <h3>{item.title}</h3>
-            <h5>${item.price}</h5> */}
+        {products.map(product => (
+          <Col align="center" key={product.id}>
+            <ProductCard product={product} />
           </Col>
         ))}
       </Row>
